@@ -1,0 +1,48 @@
+.home_page p{
+    color: rgb(211, 28, 28);
+    display: inline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+h2{
+    color: darkmagenta;
+    display: inline;
+}
+.home_page h3{
+    display: inline;
+    color: #b63b87;
+}
+.image_container img{
+    width: 400px;
+    height: 200px;
+  
+    flex-direction: column;
+    margin: 3px;
+}
+button{
+    color: #1c650df5;
+    background-color: #D3D3D3;
+}
+#rice{
+    color: rgb(103, 70, 134);
+    font-weight: 300;
+    font-size: 20px;
+}
+#deserts1{
+    color: rgb(108, 72, 142);
+    font-weight: 300;
+    font-size: 20px;
+}
+.button{
+    margin:10px;
+    padding-right: 50px;
+}
+.order_system  button a{
+    text-decoration: none;
+}
+h3 a{
+    text-decoration: none;
+}
+.aboutus a{
+    color: rgb(14, 117, 219);
+}
