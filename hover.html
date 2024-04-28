@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hover</title>
+    <style>
+        /* hover pseudo element */
+        li:hover{
+            color: aqua;
+            background-color: greenyellow;
+            padding: 1px;
+            border: 5px rgb(0, 0, 0);
+            width: 100px;
+        }
+        input:focus{
+            background-color: aquamarine;
+        }
+        li:first-child{
+            background-color: brown;
+        }
+        [custom],[bipin]{
+            background-color: blue;
+        }
+        .box1{
+            position: relative;
+        background-color: red;
+            height: 50px;
+         
+            bottom: 10px;
+            left: 40px;
+        }
+        .box2{
+            position: absolute;
+        background-color: rgb(0, 34, 255);
+            height: 50px;
+            top: 2px;
+        }
+        .box3{
+            position: fixed;
+        background-color: rgb(0, 255, 38);
+            height: 50px;
+            top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>java</li>
+        <li>ek ldki ko dekha to aisa lga</li>
+        <li>barishen</li>
+        <li>yamla pagla deewana</li>
+    </ul>
+    <label for="name">name</label>
+    <input type="text" id="name">
+    <h3 custom>cold</h3>
+    <p bipin>fever</p>
+    <div class="box1">apple</div>
+    <div class="box2">banana</div>
+    <div class="box3">orange</div>
+</body>
+</html>
